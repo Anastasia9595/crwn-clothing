@@ -10,17 +10,17 @@ const Home = () => {
     },
     {
       id: 2,
-      title: 'Jacktes',
+      title: 'Jackets',
       imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
     },
     {
       id: 3,
-      title: 'Sneackers',
+      title: 'Sneakers',
       imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
     },
     {
       id: 4,
-      title: 'Womens',
+      title: 'Womans',
       imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
     },
     {
