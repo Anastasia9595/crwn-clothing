@@ -1,4 +1,6 @@
-.product-card-container {
+import styled from 'styled-components';
+
+export const ProductCartContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -11,6 +13,7 @@
     height: 95%;
     object-fit: cover;
     margin-bottom: 5px;
+
   }
 
   button {
@@ -31,21 +34,24 @@
       display: flex;
     }
   }
+`;
 
-  .footer {
+export const Footer = styled.div`
     width: 100%;
     height: 5%;
     display: flex;
     justify-content: space-between;
     font-size: 18px;
+`;
 
-    .name {
+export const Name = styled.span`
       width: 90%;
       margin-bottom: 15px;
-    }
+`;
 
-    .price {
+export const Price = styled.span`
       width: 10%;
-    }
-  }
-}
+`;
+
+
+
